@@ -23,6 +23,8 @@ Ada dua class: `Transaction` dan `Item`.
 Customer akan menggunakan kasir lewat kode Python, cukup dengan class `Transaction` saja. Data pembelian disimpan oleh `Transaction` sebagai dictionary dengan nama item sebagai key dan object `Item` sebagai value yang memuat jumlah dan harga per item.
 
 ```
+from orders import *
+
 # inisiasi
 trx = Transaction()
 assert f"{trx} == "{}"
@@ -53,6 +55,8 @@ trx.check_order()
 trx.check_out() 
 ```
 Method `check_out()` dari `Transaction` akan menghitung total belanjaan. Total belanjaan lalu akan dikurangi diskon dan ditampilkan harga final. Perhitungan diskon untuk sekarang ada 2 cara.
+
+Contoh-contoh lain dapat dilihat dengan membuka file Jupyter Notebook `test_cases.ipynb`.
 
 ### Aturan diskon
 Tanpa settingan apapun, secara default promo yang akan digunakan adalah promo per item (`BY_ITEM`). Sekarang ada dua jenis promo, `BY_ITEM` dan `BY_TRX` dengan peraturan lengkap di bawah. Contoh code mengganti promo:

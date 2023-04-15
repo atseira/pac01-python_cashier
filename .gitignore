@@ -1,0 +1,11 @@
+# Ignore everything in the project directory
+*
+
+# Except for these specific files and directories
+!.gitignore
+!db_helper.py
+!orders.db
+!orders.py
+!promos.py
+!readme.md
+!test_cases_basic.ipynb

@@ -1,10 +1,3 @@
-Latar belakang problems
-Penjelasan requirements / objectives yang dibutuhkan untuk membuat program
-Penjelasan alur code atau flowchart.
-Penjelasan mengenai functions atau attribute yang dibuat dan fungsinya untuk apa
-Demonstrasi code dengan Test Case yang diberikan dan outputnya bagaimana
-Conclusion
-
 ## Latar Belakang
 Seorang pemilik supermarket besar di salah satu kota di Indonesia memiliki rencana untuk melakukan perbaikan proses bisnis, yaitu membuat sistem kasir yang self-service di supermarket miliknya dengan harapan Customer bisa langsung memasukkan item yang dibeli, jumlah item yang dibeli, dan harga item yang dibeli dan fitur yang lain.
 

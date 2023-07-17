@@ -1,6 +1,9 @@
 ## Latar Belakang
 Seorang pemilik supermarket besar di salah satu kota di Indonesia memiliki rencana untuk melakukan perbaikan proses bisnis, yaitu membuat sistem kasir yang self-service di supermarket miliknya dengan harapan Customer bisa langsung memasukkan item yang dibeli, jumlah item yang dibeli, dan harga item yang dibeli dan fitur yang lain.
 
+## Link Video
+https://youtu.be/-s5HL5OqPtk
+
 ## Kebutuhan
 Customer dapat melakukan hal-hal berikut:
 * memulai transaksi dengan menginstansi objek `Transaction()`
